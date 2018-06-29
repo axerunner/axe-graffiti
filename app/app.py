@@ -24,7 +24,7 @@ def index(tag=None):
         if form.validate():
             # Save the comment here.
             flash('Write graffiti "' + tag +
-                  '" to blockchain by sending (at least) 5460 duffs to:')
+                  '" to blockchain by sending (at least) 5460 haks to:')
             flash('')
             flash(generate_graffiti_address(tag))
         else:
