@@ -6,5 +6,5 @@ from lib.graffiti import generate_graffiti_address
 
 string = "The message."
 
-print('Write graffiti "' + string + '" to blockchain by sending some duffs to:\n')
+print('Write graffiti "' + string + '" to blockchain by sending some haks to:\n')
 print(generate_graffiti_address(string))
