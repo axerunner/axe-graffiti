@@ -1,5 +1,5 @@
 # axe-graffiti
-Simple python script for creating a graffiti on the AXE blockchain
+Simple python script for creating a graffiti on the [AXE](https://github.com/AXErunners/axe) blockchain
 
 ## Usage:
 - Use heroku branch online: https://axe-graffiti.herokuapp.com/
