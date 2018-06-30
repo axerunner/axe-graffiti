@@ -10,7 +10,7 @@ app.config['SECRET_KEY'] = '3287642837'
 
 class ReusableForm(Form):
     string = TextField(
-        'Graffiti (max 20 chars):', validators=[validators.required()])
+        'Graffiti (20 characters max):', validators=[validators.required()])
 
 
 @app.route('/', methods=['GET', 'POST'])
